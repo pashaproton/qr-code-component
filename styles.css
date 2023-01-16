@@ -3,8 +3,6 @@
   --light-gray: hsl(212, 45%, 89%);
   --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
-
-  --border-radius: 20px;
 }
 
 * {
@@ -27,7 +25,6 @@ section {
   padding: 20px;
   box-shadow: 0 0 20px 0 var(--dark-blue);
   text-align: center;
-  border-radius: var(--border-radius);
   background-color: var(--white);
 }
 
@@ -46,12 +43,15 @@ p {
 
 #qr-code {
   overflow: hidden;
-  border-radius: var(--border-radius);
 }
 
 #qr-code img {
   width: 100%;
   height: 100%;
+}
+
+.curved-border {
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 375px) {
