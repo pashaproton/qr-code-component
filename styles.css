@@ -4,9 +4,6 @@
   --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
 
-  --weight-normal: 400;
-  --weight-bold: 700;
-
   --border-radius: 20px;
 }
 
@@ -38,14 +35,14 @@ section {
 h1 {
   padding: 1rem 0 0;
   font-size: 22px;
-  font-weight: var(--weight-bold);
+  font-weight: 700;
 }
 
 p {
   color: var(--grayish-blue);
   padding: 1rem 20px;
   font-size: 15px;
-  font-weight: var(--weight-normal);
+  font-weight: 400;
 }
 
 #qr-code {
