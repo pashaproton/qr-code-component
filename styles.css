@@ -10,11 +10,6 @@
   --border-radius: 20px;
 }
 
-@font-face {
-  font-family: 'Outfit';
-  src: url('https://fonts.google.com/specimen/Outfit');
-}
-
 * {
   margin: 0;
   padding: 0;
